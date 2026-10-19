@@ -7,7 +7,7 @@ cask "hushtype" do
   desc "Push-to-talk dictation for macOS with on-device Whisper"
   homepage "https://github.com/sturzael/hushtype"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Hushtype.app"
