@@ -12,10 +12,6 @@ cask "hushtype" do
 
   app "Hushtype.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Hushtype.app"], sudo: false
-  end
-
   zap trash: [
     "~/Library/Application Support/Hushtype",
     "~/Library/Preferences/co.wildinteractive.hushtype.plist",
