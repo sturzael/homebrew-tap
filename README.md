@@ -6,4 +6,4 @@ brew install --cask speakhold
 ```
 
 Casks:
-- **speakhold** — push-to-talk dictation for macOS with on-device Whisper. https://github.com/sturzael/speakhold
+- **speakhold** — free, open-source dictation and meeting notes for macOS: hold a key and talk, or record both sides of a call and get the notes. Whisper on-device. https://github.com/sturzael/speakhold
