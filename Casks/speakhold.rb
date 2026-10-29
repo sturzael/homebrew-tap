@@ -4,7 +4,7 @@ cask "speakhold" do
 
   url "https://github.com/sturzael/speakhold/releases/download/v#{version}/Speakhold.app.zip"
   name "Speakhold"
-  desc "Push-to-talk dictation for macOS with on-device Whisper"
+  desc "Push-to-talk dictation and meeting notes for macOS, on-device Whisper"
   homepage "https://github.com/sturzael/speakhold"
 
   depends_on macos: :sonoma
