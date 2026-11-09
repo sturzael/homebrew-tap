@@ -1,6 +1,6 @@
 cask "speakhold" do
-  version "0.3.0"
-  sha256 "999e27c3e08dfdf3ad75affae3276fe8c8233b151fa74be05cd6313abb2a0353"
+  version "0.3.1"
+  sha256 "591b8f2b20c500f5a388e6e93be106c542ee97c050e4d5b63fa7e45cc6cc7905"
 
   url "https://github.com/sturzael/speakhold/releases/download/v#{version}/Speakhold.app.zip"
   name "Speakhold"
